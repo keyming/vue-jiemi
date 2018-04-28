@@ -1,0 +1,264 @@
+     .swiper_area{
+             width: 100%;
+             height: 5.55556rem;
+             background: #fff;
+             /* overflow: hidden; */
+     }   
+     .swiper_area img{
+        width:100%;
+     }
+
+.swiper-pagination-bullet{
+        width:16px;
+        height: 3px;
+        display: inline-block;
+        background: #fff;
+        opacity: 0.5;
+        border-radius: 0;
+}
+ .swiper-pagination-bullet-active{
+         opacity: 1; 
+        backface-visibility: #fff;
+} 
+
+/*  nav  */
+nav{
+        width:100%;
+        height: 2.41667rem;
+        padding: 0 0.58333rem;
+        background: #fff;
+        display: flex;
+        font-size: .35rem;
+        text-align: center;
+}
+nav .nav_bar{
+         flex-grow: 1; 
+         color: #666;       
+}
+
+.navLinkTo{
+        width: .77778rem;
+        height: .77778rem;
+        margin: 0.6rem auto 0.2rem;
+        background: #fff
+}
+
+.navToDesk{
+    background: url(../images/sofa.png) no-repeat center center;
+    background-size: contain;
+}
+.navToCook{
+        background: url(../images/cookie.png) no-repeat center center;
+        background-size: contain;   
+}
+.navToPei{
+         background: url(../images/bag.png) no-repeat center center;
+        background-size: contain;   
+}
+.navToBag{
+    background: url(../images/yijia.png) no-repeat center center;
+background-size: contain;      
+}
+.navToMore{
+ background: url(../images/circle.png) no-repeat center center;
+background-size: contain; 
+}
+
+.pingpai,.xinpin,.renqi,.zhuanti,.mingxi{
+        width: 100%;
+    margin: .27778rem 0;
+}
+.title{
+        width: 100%;
+        height: 1.4rem;
+        background: #fff;
+        font-size: 0.4rem;
+        text-align: center;
+        line-height: 1.4rem;
+        font-weight: normal;
+        color: #666;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+ .title_in{
+        background: url(../images/rightIcon.png) no-repeat right center;
+        background-size: 0.4rem 0.4rem; 
+        align-items: center;
+        justify-content: center;
+        padding-right: 0.5rem;
+} 
+.pingpai_img{
+        width: 100%;
+        height: 6.72222rem;
+        background:#fff;      
+}
+.pingpai_img_box{
+        width: 50%;
+        height: 100%;
+        float: left;
+        font-size: 0;
+}
+.leftImgCss{
+        width: 100%;
+        height: 50%;
+}
+.rightImgCss{
+        width: 100%;
+        height: 100%;
+}
+.xinpin_box{
+        width: 100%;
+        overflow: hidden;
+        padding: 0.5rem;
+        background: #fff;
+}
+.xinpinCon{
+        width: 50%;
+        float: left;
+}
+.xinpinCon img{
+        width: 100%;
+}
+.xinpinCon p{
+       font-size: 0.40rem;
+       text-overflow: ellipsis;
+       overflow: hidden;
+       white-space: nowrap;
+       text-align: center;
+       font-size: normal;
+}
+
+/*人气  */
+.renqi_box{
+        width: 100%;
+        padding: 0 0.3rem;
+        background: #fff;
+}
+.renqiCon{
+        padding:0.6rem 0; 
+        overflow: hidden;
+        border-bottom: 1px solid black;
+}
+.renqiCon:last-child{
+        border-bottom: none;
+}
+.renqiCon_left{
+        width: 40%;
+        float: left;
+}
+.renqiCon_right{
+        width: 60%;
+        float: left;
+        font-size: 0.4rem;
+}
+.renqiCon_left img{
+        width: 100%;
+}
+.renqiName{
+    padding-top: 0.6rem; 
+    padding-bottom: 0.3rem;
+    text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap; 
+}
+.renqiDesc{
+}
+.renqiMoney{
+        color: #b4282d;
+        font-style: italic;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+}
+.colorIcon{
+        color: #b4282d;
+        font-style: normal;
+}
+.renqiColor{
+font-size: .38889rem;
+    line-height: .66667rem;
+}
+
+/*专题精选  */
+.zhuantiPic{
+        width: 100%;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 0.2rem 0.3rem 0.2rem;
+    font-size: 0.4rem;
+}
+.zhuantiPic img{
+        width: 100%;
+}
+.zhuantiTitle{
+padding: 0.2rem 0;
+text-indent: 0.5rem;
+}
+.zhuantiMoney{
+        padding-left: 1rem;
+        color:#b4282d;
+}
+.detail_con{
+        width: 50%;
+        float: left;
+        font-size: 0.4rem;  
+        border-top: 1px solid #ccc; 
+        padding-bottom: 0.4rem;
+}
+
+  .detail_con:nth-child(odd){
+        border-right:1px solid #ccc;
+        
+}  
+.detail_box{
+        background: #fff;
+        overflow: hidden;
+}
+.detail_con img{
+        width: 100%;
+}
+.detailName{
+        text-align: center;
+        padding: 0.4rem 0;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap; 
+}
+.detailMoney{
+        text-align: center;
+        color:#b4282d;
+}
+
+/* 底部 */
+.bottom{
+        width: 100%;
+        height: 4rem;
+        background:#414141;
+        margin-top: 1rem;
+        font-size: 0.3rem;
+        color: #fff;
+}
+.download{
+        padding: 0.7rem 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        padding-top:0.7rem;
+        padding-bottom: 0.4rem;
+}
+.bottomClick{
+        width:  2.38889rem;;
+        height: 0.9rem;
+        text-align: center;
+        line-height: 0.9rem;
+        border:1px solid #666;
+}
+.meg{
+     text-align: center; 
+     color:#999;
+     font-size: 0.35rem;
+     padding: 0.1rem 0; 
+}
+.meg{
+        padding-bottom:0.1rem;
+}
