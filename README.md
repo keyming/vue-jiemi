@@ -1,30 +1,21 @@
-# vue2-web
-vue2、vue-router2、webpack2框架
+# vue-music
 
-运行效果：https://keyming.github.io/vue-demo-jiemi/
+> 音乐播放器
 
-4月25日更新：
+## Build Setup
 
-- [x] 列表渲染，v-for；  
-- [x] 条件渲染，v-if；  
-- [x] 自适应布局；  
-- [x] 事件处理器，v-on:click；  
-- [x] data数据管理。  
+``` bash
+# install dependencies
+npm install
 
+# serve with hot reload at localhost:8080
+npm run dev
 
-4月23日更新：
+# build for production with minification
+npm run build
 
-- [x] 添加打包功能；  
-- [x] 分离css和js；  
-- [x] 增加vue-tools。  
+# build for production and view the bundle analyzer report
+npm run build --report
+```
 
-4月21日更新：
-
-- [x] 父组件传递给子组件数据；  
-- [x] 子组件通过props接收数据；  
-- [x] v:bind以及v-for的使用；  
-- [x] 实现了轮播组件。  
-
-4月19日发布第一版：
-
-- [x] 搭建了vue2-webpack2架构。
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
