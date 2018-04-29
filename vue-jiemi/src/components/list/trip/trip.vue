@@ -1,7 +1,6 @@
 <template>
   <div class="gridlist-demo-container">
     <mu-grid-list class="gridlist-demo">
-      <mu-sub-header>图片展示</mu-sub-header>
       <mu-grid-tile v-for="(tile,index) in list" :key="index" @click="select(index)" :class="{big: index===selectIndex}" titlePosition="top" actionPosition="left" :rows="tile.featured ? 2 : 1" :cols="tile.featured ? 2 : 1">
         <img :src="tile.image"/>
         <span slot="title">{{tile.title}}</span>

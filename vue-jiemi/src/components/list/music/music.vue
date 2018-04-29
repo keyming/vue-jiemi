@@ -68,7 +68,6 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 660px;
-    top: 3.6rem;
     bottom: 0;
     overflow: hidden;
     .music-content {

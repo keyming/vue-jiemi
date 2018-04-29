@@ -47,11 +47,14 @@
   };
 </script>
 <style lang="less">
+  .navBer {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     .nav-bar {
-      position: fixed;
       height: 4.3rem;
       left: 0;
-      bottom: 0;
       z-index: 1000;
       background: #0086b3;
       .iconfont {
@@ -59,4 +62,5 @@
         font-size: 26px
       }
     }
+  }
 </style>
