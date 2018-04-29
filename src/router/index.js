@@ -1,105 +1,39 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-
-Vue.use(Router)
-
-const Recommend = (resolve) => {
-  import('components/recommend/recommend').then((module) => {
-    resolve(module)
-  })
-}
-
-const Singer = (resolve) => {
-  import('components/singer/singer').then((module) => {
-    resolve(module)
-  })
-}
-
-const Rank = (resolve) => {
-  import('components/rank/rank').then((module) => {
-    resolve(module)
-  })
-}
-
-const Search = (resolve) => {
-  import('components/search/search').then((module) => {
-    resolve(module)
-  })
-}
-
-const SingerDetail = (resolve) => {
-  import('components/singer-detail/singer-detail').then((module) => {
-    resolve(module)
-  })
-}
-
-const Disc = (resolve) => {
-  import('components/disc/disc').then((module) => {
-    resolve(module)
-  })
-}
-
-const TopList = (resolve) => {
-  import('components/top-list/top-list').then((module) => {
-    resolve(module)
-  })
-}
-
-const UserCenter = (resolve) => {
-  import('components/user-center/user-center').then((module) => {
-    resolve(module)
-  })
-}
-
+import Vue from 'vue';
+import Router from 'vue-router';
+import Header from '../components/header/header.vue';
+import Menu from '../components/menu/menus.vue';
+import Movie from '../components/list/movie/movie.vue';
+import music from '../components/list/music/music.vue';
+import trip from '../components/list/trip/trip.vue';
+Vue.use(Router);
 export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/recommend'
+      redirect: '/movie'
     },
     {
-      path: '/recommend',
-      component: Recommend,
-      children: [
-        {
-          path: ':id',
-          component: Disc
-        }
-      ]
+      path: '/header',
+      component: Header
     },
     {
-      path: '/singer',
-      component: Singer,
-      children: [
-        {
-          path: ':id',
-          component: SingerDetail
-        }
-      ]
+      path: '/menu',
+      component: Menu
     },
     {
-      path: '/rank',
-      component: Rank,
-      children: [
-        {
-          path: ':id',
-          component: TopList
-        }
-      ]
+      path: '/movie',
+      name: 'movie',
+      component: Movie
     },
     {
-      path: '/search',
-      component: Search,
-      children: [
-        {
-          path: ':id',
-          component: SingerDetail
-        }
-      ]
+      path: '/music',
+      name: 'music',
+      component: music
     },
     {
-      path: '/user',
-      component: UserCenter
+      path: '/trip',
+      name: 'trip',
+      component: trip
     }
   ]
-})
+});
