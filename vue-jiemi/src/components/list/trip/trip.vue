@@ -70,6 +70,7 @@
 <style scoped lang="scss">
   .gridlist-demo-container {
     display: flex;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     max-width: 660px;

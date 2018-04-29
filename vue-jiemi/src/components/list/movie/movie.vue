@@ -43,6 +43,7 @@
 </script>
 <style lang="stylus" rel=stylesheet/stylus>
   .movie
+    margin-top: 55px
     z-index: 1
     width: 100%
 </style>
