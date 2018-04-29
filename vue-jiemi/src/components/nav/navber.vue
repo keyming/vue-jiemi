@@ -52,7 +52,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    z-index: 3;
+    z-index: 200;
     background: #0086b3;
     .iconfont {
       display: inline-block;
