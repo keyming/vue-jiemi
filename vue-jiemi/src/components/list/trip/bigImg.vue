@@ -21,32 +21,32 @@
             author: '😄',
             featured: true
           }, {
-            image: '../dist/static/img/trip/trip9.jpeg',
+            image: '../../dist/static/img/trip/trip9.jpeg',
             title: '人民广场',
             author: '夜色贵阳'
           }, {
-            image: '../dist/static/img/trip/trip11.jpeg',
+            image: '../../dist/static/img/trip/trip11.jpeg',
             title: '镇远',
             author: '夜景'
           }, {
-            image: '../dist/static/img/trip/trip4.jpeg',
+            image: '../../dist/static/img/trip/trip4.jpeg',
             title: '黔灵寺',
             author: '风景'
           }, {
-            image: '../dist/static/img/trip/trip5.jpeg',
+            image: '../../dist/static/img/trip/trip5.jpeg',
             title: '人民广场',
             author: '夜景'
           }, {
-            image: '../dist/static/img/trip/trip6.jpeg',
+            image: '../../dist/static/img/trip/trip6.jpeg',
             title: '人民广场',
             author: '🌃',
             featured: true
           }, {
-            image: '../dist/static/img/trip/trip7.jpeg',
+            image: '../../dist/static/img/trip/trip7.jpeg',
             title: 'Vegetables',
             author: 'NUyyyyyyy'
           }, {
-            image: '../dist/static/img/trip/trip8.jpeg',
+            image: '../../dist/static/img/trip/trip8.jpeg',
             title: 'water',
             author: 'TDDyyyyyyy'
           }],

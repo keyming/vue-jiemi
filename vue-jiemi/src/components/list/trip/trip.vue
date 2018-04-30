@@ -15,39 +15,39 @@
     data() {
       return {
         list: [{
-        image: '../../static/img/trip/trip1.jpeg',
+        image: '../../dist/static/img/trip/trip1.jpeg',
         title: '爽爽贵阳',
         author: '😄',
         featured: true
       }, {
-        image: '../../static/img/trip/trip9.jpeg',
+        image: '../../dist/static/img/trip/trip9.jpeg',
         title: '人民广场',
         author: '夜色贵阳'
       }, {
-        image: '../../static/img/trip/trip11.jpeg',
+        image: '../../dist/static/img/trip/trip11.jpeg',
         title: '镇远',
         author: '夜景'
       }, {
-        image: '../../static/img/trip/trip4.jpeg',
+        image: '../../dist/static/img/trip/trip4.jpeg',
         title: '黔灵寺',
         author: '风景'
       }, {
-        image: '../../static/img/trip/trip5.jpeg',
+        image: '../../dist/static/img/trip/trip5.jpeg',
         title: '人民广场',
         author: '夜景'
       }, {
-        image: '../../static/img/trip/trip6.jpeg',
+        image: '../../dist/static/img/trip/trip6.jpeg',
         title: '人民广场',
         author: '🌃',
         featured: true
       }, {
-        image: '../../static/img/trip/trip7.jpeg',
-        title: 'Vegetables',
-        author: 'NUyyyyyyy'
+        image: '../../dist/static/img/trip/trip7.jpeg',
+        title: '走走',
+        author: '点点滴滴'
       }, {
-        image: '../../static/img/trip/trip8.jpeg',
-        title: 'water',
-        author: 'TDDyyyyyyy'
+        image: '../../dist/static/img/trip/trip8.jpeg',
+        title: '走走',
+        author: '点点滴滴'
       }],
         isImgViewsShow: 0,
         imgViewsSrc: '',
