@@ -15,12 +15,12 @@
     data() {
       return {
         list: [{
-        image: '../../dist/static/img/trip/trip1.jpeg',
+        image: '../../static/img/trip/trip1.jpeg',
         title: '爽爽贵阳',
         author: '😄',
         featured: true
       }, {
-        image: '../../dist/static/img/trip/trip9.jpeg',
+        image: '../../static/img/trip/trip9.jpeg',
         title: '人民广场',
         author: '夜色贵阳'
       }, {
