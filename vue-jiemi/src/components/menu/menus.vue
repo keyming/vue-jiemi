@@ -11,7 +11,7 @@
               <div class="icon">
                 <i class="icon-tubiaozhizuomoban iconfont"></i>
               </div>
-              <span class="text"><a href="https://github.com/keyming/vue-jiemi/tree/master/vue-jiemi">githubDemo</a></span>
+              <span class="text"><a href="https://github.com/keyming/vue-jiemi/blob/master/vue-jiemi/README.md">githubDemo</a></span>
               <div class="menu-new">
               </div>
             </div>

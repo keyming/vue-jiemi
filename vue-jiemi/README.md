@@ -2,8 +2,8 @@
 
 > 个人主页
 ## 效果截图
-<img src="https://github.com/keyming/vue-jiemi/vue-jiemi/jiemi/img/pic1.jpg" width="250" height="450"><img src="https://github.com/keyming/vue-jiemi/vue-jiemi/jiemi/img/pic2.jpg" width="250" height="450">
-<img src="https://github.com/keyming/vue-jiemi/vue-jiemi/jiemi/img/pic3.jpg" width="250" height="450"><img src="https://github.com/keyming/vue-jiemi/vue-jiemi/jiemi/img/pic4.jpg" width="250" height="450">
+<img src="https://github.com/keyming/vue-jiemi/tree/master/vue-jiemi/Jiemi/img/pic1.jpg" width="250" height="450"><img src="https://github.com/keyming/vue-jiemi/tree/master/vue-jiemi/Jiemi/img/pic2.jpg" width="250" height="450">
+<img src="https://github.com/keyming/vue-jiemi/tree/master/vue-jiemi/Jiemi/img/pic3.jpg" width="250" height="450"><img src="https://github.com/keyming/vue-jiemi/tree/master/vue-jiemi/Jiemi/img/pic4.jpg" width="250" height="450">
 ## 技术栈
 
 ##前端
@@ -30,8 +30,8 @@ cd vue-jiemi
 # 安装依赖
 npm install
 
-# 服务端运行 访问 http://localhost:8080
-npm run dev
+# 服务端运行
+npm run dev //访问 http://localhost:8080
 
 #  项目打包
 npm run build
