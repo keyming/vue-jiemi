@@ -13,7 +13,8 @@
   export default {
     data() {
       return {
-        bottomNav: 'index'
+        bottomNav: 'movies',
+        bottomNavColor: 'movies'
       };
     },
     methods: {

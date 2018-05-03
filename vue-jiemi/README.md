@@ -2,8 +2,8 @@
 
 > 个人主页
 ## 效果截图
-<img src="https://github.com/keyming/vue-jiemi/tree/master/vue-jiemi/Jiemi/img/pic1.png" width="250" height="450"><img src="https://github.com/keyming/vue-jiemi/tree/master/vue-jiemi/Jiemi/img/pic2.png" width="250" height="450">
-<img src="https://github.com/keyming/vue-jiemi/tree/master/vue-jiemi/Jiemi/img/pic3.png" width="250" height="450"><img src="https://github.com/keyming/vue-jiemi/tree/master/vue-jiemi/Jiemi/img/pic4.png" width="250" height="450">
+<img src="https://github.com/keyming/vue-jiemi/blob/master/vue-jiemi/Jiemi/img/pic1.png" width="250" height="450"><img src="https://github.com/keyming/vue-jiemi/blob/master/vue-jiemi/Jiemi/img/pic2.png" width="250" height="450">
+<img src="https://github.com/keyming/vue-jiemi/blob/master/vue-jiemi/Jiemi/img/pic3.png" width="250" height="450"><img src="https://github.com/keyming/vue-jiemi/blob/master/vue-jiemi/Jiemi/img/pic4.png" width="250" height="450">
 ## 技术栈
 
 ##前端
