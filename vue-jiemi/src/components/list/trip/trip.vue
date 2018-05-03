@@ -2,7 +2,7 @@
   <div class="gridlist-demo-container">
     <mu-grid-list class="gridlist-demo">
       <mu-grid-tile v-for="(tile,index) in list" :key="index" @click="select(index)" :class="{big: index===selectIndex}" titlePosition="top" actionPosition="left" :rows="tile.featured ? 2 : 1" :cols="tile.featured ? 2 : 1">
-        <img :src="tile.image"/>
+        <img :src="tile.image" class="imgShow"/>
         <span slot="title">{{tile.title}}</span>
         <span slot="subTitle">by<b>{{tile.author}}</b></span>
       </mu-grid-tile>
@@ -10,6 +10,7 @@
   </div>
 </template>
 <script>
+  import $ from 'jquery';
   import BigImg from './bigImg.vue';
   export default {
     data() {
@@ -58,6 +59,13 @@
     components: {
        'big-img': BigImg
     },
+    mounted: function() {
+      $(function() {
+        var list = $('.imgShow');
+          list.on('click', function () {
+          });
+        });
+    },
     methods: {
       select(index) {
         this.index = index;
@@ -65,7 +73,7 @@
         this.selectIndex = this.selectIndex === index ? undefined : index;
       }
     }
-  };
+    };
 </script>
 <style scoped lang="scss">
   .gridlist-demo-container {
@@ -81,5 +89,23 @@
     width: 100%;
     height: 100%;
     overflow-y: auto;
+  }
+  .imgShow{
+    width: 100%;height: 100%;
+  }
+  .changeImg{
+    width: 100%;
+    height: 100%;
+    background: firebrick;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 500;
+  }
+  .mengban{
+    width: 100%;height: 13.34rem;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;left: 0;
+    display: none;
   }
 </style>

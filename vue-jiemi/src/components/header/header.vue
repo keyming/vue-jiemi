@@ -12,7 +12,7 @@
       </header>
     </header>
     <v-menu :show="menuShow"></v-menu>
-  </div>
+    </div>
 </template>
 
 <script type="text/ecmascript-6">
@@ -81,7 +81,7 @@
           color: #f7f7f7;
         }
         .bar-right {
-          font-size: 28px;
+          font-size: 2.8rem;
           right: 30px;
           .iconfont {
           font-size: 28px;

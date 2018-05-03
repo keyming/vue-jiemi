@@ -1,58 +1,16 @@
 <template>
-  <!-- 过渡动画 -->
   <transition name="fade">
     <div class="img-view" @click="bigImg" v-for="(item, index) in list" :key="index">
-      <!-- 遮罩层 -->
       <div class="img-layer"></div>
       <div class="img">
-        <img :src="imgSrc[index]">
+        <img :src="imgSrc">
       </div>
     </div>
   </transition>
 </template>
 <script type="text/ecmascript-6">
   export default {
-    props: ['imgSrc[index]'],
-    data() {
-        return {
-          list: [{
-            image: '../dist/static/img/trip/trip1.jpeg',
-            title: '爽爽贵阳',
-            author: '😄',
-            featured: true
-          }, {
-            image: '../../dist/static/img/trip/trip9.jpeg',
-            title: '人民广场',
-            author: '夜色贵阳'
-          }, {
-            image: '../../dist/static/img/trip/trip11.jpeg',
-            title: '镇远',
-            author: '夜景'
-          }, {
-            image: '../../dist/static/img/trip/trip4.jpeg',
-            title: '黔灵寺',
-            author: '风景'
-          }, {
-            image: '../../dist/static/img/trip/trip5.jpeg',
-            title: '人民广场',
-            author: '夜景'
-          }, {
-            image: '../../dist/static/img/trip/trip6.jpeg',
-            title: '人民广场',
-            author: '🌃',
-            featured: true
-          }, {
-            image: '../../dist/static/img/trip/trip7.jpeg',
-            title: 'Vegetables',
-            author: 'NUyyyyyyy'
-          }, {
-            image: '../../dist/static/img/trip/trip8.jpeg',
-            title: 'water',
-            author: 'TDDyyyyyyy'
-          }],
-          imgIndex: 0
-      };
-    },
+    props: ['imgSrc'],
     methods: {
       bigImg() {
         // 发送事件

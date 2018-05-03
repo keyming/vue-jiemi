@@ -1,22 +1,38 @@
 # vue-jiemi
 
 > 个人主页
+## 效果截图
+<img src="https://github.com/keyming/vue-jiemi/vue-jiemi/jiemi/img/pic1.jpg" width="250" height="450"><img src="https://github.com/keyming/vue-jiemi/vue-jiemi/jiemi/img/pic2.jpg" width="250" height="450">
+<img src="https://github.com/keyming/vue-jiemi/vue-jiemi/jiemi/img/pic3.jpg" width="250" height="450"><img src="https://github.com/keyming/vue-jiemi/vue-jiemi/jiemi/img/pic4.jpg" width="250" height="450">
+## 技术栈
 
-## Build Setup
+##前端
 
-运行效果: https://keyming.github.io/vue-demo-jiemi/
-``` bash
-# install dependencies
+- `Vue`： MVVM 框架
+- `vue-router`：为单页面应用提供的路由。
+- `vuex`：Vue 集中状态管理
+- `better-scroll`：移动端滑动体验更加流畅
+-  `muse-ui`: 是基于vue 2.0的ui组件
+##后端
+- `Node.js`：本地测试服务器
+- `jsonp`：服务端通讯。抓取 豆瓣，QQ音乐(移动端)数据
+
+##自动化构建及其他工具
+
+- `webpack`：项目的编译打包
+- `vue-cli`：Vue 脚手架工具，快速搭建项目
+
+#安装运行
+git clone https://github.com/keyming/vue-jiemi.git
+
+cd vue-jiemi
+
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 服务端运行 访问 http://localhost:8080
 npm run dev
 
-# build for production with minification
+#  项目打包
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

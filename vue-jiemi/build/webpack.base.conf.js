@@ -36,7 +36,8 @@ module.exports = {
     alias: {
       '@': resolve('src'),
       'common': resolve('src/common'),
-      'api': resolve('src/api')
+      'api': resolve('src/api'),
+      'jquery': path.resolve(__dirname, '../node_modules/jquery/src/jquery')
     }
   },
   module: {
@@ -94,5 +95,5 @@ module.exports = {
     net: 'empty',
     tls: 'empty',
     child_process: 'empty'
-  }
+  },
 }

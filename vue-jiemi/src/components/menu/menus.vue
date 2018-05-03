@@ -2,19 +2,19 @@
   <div class="menus">
       <div class="menu-wrapper" :class="{'show': show}">
         <div class="menu-name">
-          <div class="logo"><img class="headShow" src="http://b13.photo.store.qq.com/psu?/651200367/XWfcolSOKntOllMl5rtWqYrChvU6gxI9LrMGSeus9qs!/b/Yd.F0wdkZwAAYsrszgdDaAAA&bo=DwHxAAAAAAABEMg!&rf=viewer_4"></div>
-          <div class="name">陸東明</div>
+          <div class="logo"><img class="headShow" src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1525296820947&amp;di=33f4c84d522119af1bfe6f530441e6c4&amp;imgtype=0&amp;src=http%3A%2F%2Fpic31.photophoto.cn%2F20140412%2F0005018628799426_b.jpg"></div>
+          <div class="name">LuDongMing</div>
         </div>
         <div class="menu-list">
           <div v-for='(menu,index) in nav' :key="index" @click="updateHeader(NAME_ITEM[menu], menu)">
-            <router-link class="menu-item iconfont item border-1px" :to="menu">
+            <div class="menu-item iconfont item border-1px">
               <div class="icon">
-                <i class="iconfont " :class="'icon-'+ menu"></i>
+                <i class="icon-tubiaozhizuomoban iconfont"></i>
               </div>
-              <span class="text">{{NAME_ITEM[menu]}}</span>
+              <span class="text"><a href="https://github.com/keyming/vue-jiemi/tree/master/vue-jiemi">githubDemo</a></span>
               <div class="menu-new">
               </div>
-            </router-link>
+            </div>
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@
 </template>
 <script>
   import { mapState } from 'vuex';
-  const NAME_ITEM = { 'basic': '个人资料' };
+  const NAME_ITEM = { 'basic': '个人Demo' };
   export default {
     name: 'menus',
     props: {
@@ -104,7 +104,7 @@
           background: #404040;
           vertical-align: top;
           text-align: center;
-          .iconfont {
+          .iconfont{
             color: #ffecec;
             line-height: 32px;
           }
@@ -115,6 +115,9 @@
           font-size: 16px;
           line-height: 30px;
           margin-left: 12px;
+          a {
+            color: #ffecec;
+          }
         }
       }
     }

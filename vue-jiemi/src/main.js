@@ -3,7 +3,7 @@ import Vue from 'vue';
 import store from './components/vuex/store';
 import App from './App';
 import router from './router';
-import infiniteScroll from 'vue-infinite-scroll'; // 引入滑动模块
+import infiniteScroll from 'vue-infinite-scroll';
 import './common/css/index.styl';
 import '../static/fonts/iconfont.css';
 import VueResource from 'vue-resource';
