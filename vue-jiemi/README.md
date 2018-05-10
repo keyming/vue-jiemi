@@ -13,6 +13,7 @@
 - `vuex`：Vue 集中状态管理
 - `better-scroll`：移动端滑动体验更加流畅
 -  `muse-ui`: 是基于vue 2.0的ui组件
+
 ##后端
 - `Node.js`：本地测试服务器
 - `jsonp`：服务端通讯。抓取 豆瓣，QQ音乐(移动端)数据
